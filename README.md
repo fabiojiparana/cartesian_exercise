@@ -1,9 +1,17 @@
 # API CARTESIAN EXERCISE
 
-## Desenvolvedor
+## DEV
 Fábio Jr.
 
 
-## Tecnologia
-GoLang
+## Technology
+GoLan
+
 Echo
+
+## Args Run project
+
+```
+"args": ["-port=9000", "-debug=true"]
+
+```
