@@ -1,6 +1,7 @@
 package main
 
 import (
+	"cartesian_exercise/points"
 	"flag"
 
 	"github.com/labstack/echo"
@@ -29,6 +30,8 @@ func main() {
 
 	e.Use(middleware.CORS())
 	e.Use(middleware.Recover())
+
+	points.AddRoutes(e)
 
 	e.Logger.Fatal(e.Start(":" + *port))
 }
