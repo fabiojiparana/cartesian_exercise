@@ -2,3 +2,8 @@
 
 ## Desenvolvedor
 Fábio Jr.
+
+
+## Tecnologia
+GoLang
+Echo
